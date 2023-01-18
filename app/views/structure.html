@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TITULO</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/home/style.css">
+
+    <script src="js/libraries/jquery.js"></script>
+    <script src="js/libraries/jquery.dataTables.min.js"></script>
+    <script src="js/libraries/dataTables.bootstrap4.min.js"></script>
+    <script src="js/libraries/sweetalert.js"></script>
+
+    <style>
+        .dataTables_filter,
+        .dataTables_length {
+            display: none;
+        }
+
+        .dataTables_paginate,
+        .paging_simple_numbers,
+        .pagination {
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+
+    {% block content %}{% endblock %}
+
+    <script src="js/libraries/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
